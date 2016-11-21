@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="zn6-wl-4Tf" customClass="HYFBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="35"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGp-HN-mUV">
+                    <rect key="frame" x="0.0" y="0.0" width="94" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="mainCellDing">
+                        <color key="titleColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cY0-BW-O6U">
+                    <rect key="frame" x="94" y="0.0" width="94" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="mainCellCai">
+                        <color key="titleColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfG-tZ-vwe">
+                    <rect key="frame" x="188" y="0.0" width="93" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="mainCellShare">
+                        <color key="titleColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O18-Cc-Lgw">
+                    <rect key="frame" x="281" y="0.0" width="94" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="mainCellComment">
+                        <color key="titleColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="O18-Cc-Lgw" firstAttribute="leading" secondItem="xfG-tZ-vwe" secondAttribute="trailing" id="40f-rg-7tA"/>
+                <constraint firstItem="xfG-tZ-vwe" firstAttribute="height" secondItem="cY0-BW-O6U" secondAttribute="height" id="AuY-1v-9Sa"/>
+                <constraint firstItem="O18-Cc-Lgw" firstAttribute="width" secondItem="xfG-tZ-vwe" secondAttribute="width" id="LsF-vM-KK8"/>
+                <constraint firstAttribute="bottom" secondItem="cY0-BW-O6U" secondAttribute="bottom" id="NmR-Gh-jX1"/>
+                <constraint firstItem="xfG-tZ-vwe" firstAttribute="leading" secondItem="cY0-BW-O6U" secondAttribute="trailing" id="QoW-Lc-7R3"/>
+                <constraint firstAttribute="bottom" secondItem="KGp-HN-mUV" secondAttribute="bottom" id="SLP-Lr-gDb"/>
+                <constraint firstItem="KGp-HN-mUV" firstAttribute="top" secondItem="zn6-wl-4Tf" secondAttribute="top" id="cAo-DQ-Y5L"/>
+                <constraint firstItem="O18-Cc-Lgw" firstAttribute="height" secondItem="xfG-tZ-vwe" secondAttribute="height" id="fuO-bB-FCZ"/>
+                <constraint firstAttribute="bottom" secondItem="xfG-tZ-vwe" secondAttribute="bottom" id="j5b-6W-Ou3"/>
+                <constraint firstAttribute="trailing" secondItem="O18-Cc-Lgw" secondAttribute="trailing" id="jTp-in-j7I"/>
+                <constraint firstItem="xfG-tZ-vwe" firstAttribute="width" secondItem="cY0-BW-O6U" secondAttribute="width" id="kjs-bj-IFF"/>
+                <constraint firstAttribute="bottom" secondItem="O18-Cc-Lgw" secondAttribute="bottom" id="r2n-WS-HSl"/>
+                <constraint firstItem="cY0-BW-O6U" firstAttribute="leading" secondItem="KGp-HN-mUV" secondAttribute="trailing" id="r5T-ax-UVM"/>
+                <constraint firstItem="KGp-HN-mUV" firstAttribute="leading" secondItem="zn6-wl-4Tf" secondAttribute="leading" id="sJt-la-9tQ"/>
+                <constraint firstItem="cY0-BW-O6U" firstAttribute="width" secondItem="KGp-HN-mUV" secondAttribute="width" id="ukP-Lu-3Cb"/>
+                <constraint firstItem="cY0-BW-O6U" firstAttribute="height" secondItem="KGp-HN-mUV" secondAttribute="height" id="xxP-MJ-Gj7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="caiView" destination="cY0-BW-O6U" id="whF-6f-wPb"/>
+                <outlet property="commentView" destination="O18-Cc-Lgw" id="bkD-sg-taD"/>
+                <outlet property="dingView" destination="KGp-HN-mUV" id="jiV-Kl-N26"/>
+                <outlet property="shareView" destination="xfG-tZ-vwe" id="huz-Wy-u9S"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="mainCellCai" width="20" height="20"/>
+        <image name="mainCellComment" width="20" height="20"/>
+        <image name="mainCellDing" width="20" height="20"/>
+        <image name="mainCellShare" width="20" height="20"/>
+    </resources>
+</document>

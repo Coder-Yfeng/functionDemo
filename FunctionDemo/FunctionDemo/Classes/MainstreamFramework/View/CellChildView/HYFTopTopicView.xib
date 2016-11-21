@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cZg-GJ-zeB" customClass="HYFTopTopicView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0vJ-eb-DaC">
+                    <rect key="frame" x="10" y="10" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="ZEu-eE-XRS"/>
+                        <constraint firstAttribute="width" constant="35" id="lP9-9c-eKh"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vw-6J-43d">
+                    <rect key="frame" x="55" y="10" width="37.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEI-bS-rFe">
+                    <rect key="frame" x="55" y="27" width="37.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJY-48-vAO">
+                    <rect key="frame" x="341" y="10" width="24" height="22"/>
+                    <state key="normal" image="cellmorebtnnormal"/>
+                    <connections>
+                        <action selector="moreClick:" destination="cZg-GJ-zeB" eventType="touchUpInside" id="a6Q-En-kp0"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbY-PV-z34">
+                    <rect key="frame" x="10" y="55" width="355" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0vJ-eb-DaC" firstAttribute="leading" secondItem="cZg-GJ-zeB" secondAttribute="leading" constant="10" id="9oP-mJ-Q6W"/>
+                <constraint firstAttribute="trailing" secondItem="sbY-PV-z34" secondAttribute="trailing" constant="10" id="Bni-xs-eHx"/>
+                <constraint firstItem="sbY-PV-z34" firstAttribute="leading" secondItem="cZg-GJ-zeB" secondAttribute="leading" constant="10" id="GMf-Gt-875"/>
+                <constraint firstItem="9vw-6J-43d" firstAttribute="leading" secondItem="0vJ-eb-DaC" secondAttribute="trailing" constant="10" id="LNr-KC-TYi"/>
+                <constraint firstItem="sbY-PV-z34" firstAttribute="top" secondItem="BEI-bS-rFe" secondAttribute="bottom" constant="10" id="R8r-gN-hWL"/>
+                <constraint firstItem="BEI-bS-rFe" firstAttribute="bottom" secondItem="0vJ-eb-DaC" secondAttribute="bottom" id="Vhs-wH-2Lp"/>
+                <constraint firstItem="BEI-bS-rFe" firstAttribute="leading" secondItem="0vJ-eb-DaC" secondAttribute="trailing" constant="10" id="a4d-7e-zhi"/>
+                <constraint firstAttribute="trailing" secondItem="xJY-48-vAO" secondAttribute="trailing" constant="10" id="bpo-HC-PQ1"/>
+                <constraint firstItem="xJY-48-vAO" firstAttribute="top" secondItem="cZg-GJ-zeB" secondAttribute="top" constant="10" id="dgq-CO-3Wj"/>
+                <constraint firstItem="0vJ-eb-DaC" firstAttribute="top" secondItem="cZg-GJ-zeB" secondAttribute="top" constant="10" id="jNk-Jn-6x7"/>
+                <constraint firstItem="9vw-6J-43d" firstAttribute="top" secondItem="0vJ-eb-DaC" secondAttribute="top" id="nfi-93-jkk"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconView" destination="0vJ-eb-DaC" id="yEx-De-MJ0"/>
+                <outlet property="nameLable" destination="9vw-6J-43d" id="42T-ZC-h5m"/>
+                <outlet property="textLable" destination="sbY-PV-z34" id="OoZ-7A-X3D"/>
+                <outlet property="timeLable" destination="BEI-bS-rFe" id="JhL-ql-eJB"/>
+            </connections>
+            <point key="canvasLocation" x="204.5" y="298"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cellmorebtnnormal" width="24" height="20"/>
+    </resources>
+</document>

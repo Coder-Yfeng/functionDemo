@@ -2,7 +2,7 @@
 //  HYFTabBarController.m
 //  FunctionDemo
 //
-//  Created by hyp on 2016/11/17.
+//  Created by hyp on 2020/22/17.
 //  Copyright © 2016年 youfenghe. All rights reserved.
 //
 
@@ -33,6 +33,7 @@
     }
     return _publishBtn;
 }
+
 // 设置tabBleItem外观
 +(void)load {
     [super load];
@@ -44,7 +45,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    // 添加publishBtn
     [self setupPublishBtn];
     self.tabBar.tintColor = [UIColor greenColor];
     // 添加所有子控制器
@@ -85,6 +86,14 @@
     
 }
 
+/**
+ 添加控制器
+
+ @param vc 控制器
+ @param title 标题
+ @param image 图片
+ @param selectedImage 选中的图片
+ */
 - (void)setupChildVC:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage {
     // 包装一个导航控制器
     HYFNavigationController *nav = [[HYFNavigationController alloc] initWithRootViewController:vc];

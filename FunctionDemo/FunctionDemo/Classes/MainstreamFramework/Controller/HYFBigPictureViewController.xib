@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HYFBigPictureViewController">
+            <connections>
+                <outlet property="scrollView" destination="kdA-u8-8rx" id="pcL-jb-RRP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kdA-u8-8rx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPx-eB-Ty6">
+                    <rect key="frame" x="20" y="20" width="35" height="35"/>
+                    <state key="normal" image="show_image_back_icon"/>
+                    <connections>
+                        <action selector="backClick:" destination="-1" eventType="touchUpInside" id="ZyK-Wv-t5d"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnn-uO-rkf">
+                    <rect key="frame" x="309" y="617" width="46" height="30"/>
+                    <color key="backgroundColor" red="0.22061298076923075" green="0.22061298076923075" blue="0.22061298076923075" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="guI-Qv-f3i"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="保存"/>
+                    <connections>
+                        <action selector="savePhotoClick:" destination="-1" eventType="touchUpInside" id="oU4-qr-nXP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qnn-uO-rkf" secondAttribute="trailing" constant="20" id="4xC-g1-Ptf"/>
+                <constraint firstAttribute="trailing" secondItem="kdA-u8-8rx" secondAttribute="trailing" id="6Sv-yy-rMV"/>
+                <constraint firstItem="kdA-u8-8rx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Bjo-hv-ozs"/>
+                <constraint firstAttribute="bottom" secondItem="kdA-u8-8rx" secondAttribute="bottom" id="IFF-9G-xNP"/>
+                <constraint firstItem="kPx-eB-Ty6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Q54-fe-U6j"/>
+                <constraint firstItem="kdA-u8-8rx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lfa-wg-Cpt"/>
+                <constraint firstItem="kPx-eB-Ty6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="nVN-FZ-ngp"/>
+                <constraint firstAttribute="bottom" secondItem="qnn-uO-rkf" secondAttribute="bottom" constant="20" id="u3E-Gb-gRQ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="show_image_back_icon" width="35" height="35"/>
+    </resources>
+</document>

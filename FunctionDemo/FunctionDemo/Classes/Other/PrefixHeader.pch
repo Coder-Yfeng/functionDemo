@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  FunctionDemo
+//
+//  Created by hyp on 2020/22/21.
+//  Copyright © 2016年 youfenghe. All rights reserved.
+//
+
+#import "UIBarButtonItem+Item.h"
+#import "UIView+Frame.h"
+#import "AFHTTPSessionManager+Manager.h"
+#import <UIImageView+WebCache.h>
+#define HYFBaseUrl @"http://api.budejie.com/api/api_open.php"
+
+#define HYFScreenH [UIScreen mainScreen].bounds.size.height
+#define HYFScreenW [UIScreen mainScreen].bounds.size.width
+#define HYFColor(r,g,b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1]
+#define iPhone6P (HYFScreenH == 736)
+#define iPhone6 (HYFScreenH == 667)
+#define iPhone5 (HYFScreenH == 568)
+#define iPhone4 (HYFScreenH == 480)
+#ifndef FunctionDemo_pch
+#define FunctionDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* FunctionDemo_pch */
+

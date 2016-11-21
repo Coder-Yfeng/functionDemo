@@ -2,12 +2,13 @@
 //  HYFMainstreamFrameworkViewController.h
 //  FunctionDemo
 //
-//  Created by hyp on 2016/11/17.
+//  Created by hyp on 2020/22/17.
 //  Copyright © 2016年 youfenghe. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "HYFBaseTabViewController.h"
 
-@interface HYFMainstreamFrameworkViewController : UITableViewController
+@interface HYFMainstreamFrameworkViewController : HYFBaseTabViewController
 
 @end

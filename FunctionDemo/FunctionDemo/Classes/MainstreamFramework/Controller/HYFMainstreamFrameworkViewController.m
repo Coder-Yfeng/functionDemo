@@ -2,11 +2,13 @@
 //  HYFMainstreamFrameworkViewController.m
 //  FunctionDemo
 //
-//  Created by hyp on 2016/11/17.
+//  Created by hyp on 2020/22/17.
 //  Copyright © 2016年 youfenghe. All rights reserved.
 //
 
 #import "HYFMainstreamFrameworkViewController.h"
+#import "HYFBaseTopicViewController.h"
+#import "UIBarButtonItem+Item.h"
 
 @interface HYFMainstreamFrameworkViewController ()
 
@@ -16,98 +18,79 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
     [self setupNavBar];
+    
+    // 添加所有的子控制器
+    [self setupAllChildViewController];
+    
 }
 
-
-- (void)setupNavBar {
+-(void)setupNavBar{
+    // 添加导航控制器标题
     self.navigationItem.title = @"主流";
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
-}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+-(void)gameClick{
     
-    // Configure the cell...
+    NSLog(@"点击了游戏按钮");
+}
+
+
+-(void)setupAllChildViewController{
     
-    return cell;
+    // 全部
+    HYFBaseTopicViewController *allVC = [[HYFBaseTopicViewController alloc] init];
+    allVC.title = @"全部";
+    [self addChildViewController:allVC];
+    
+    // 视频
+    HYFBaseTopicViewController *videoVC = [[HYFBaseTopicViewController alloc] init];
+    videoVC.title = @"视频";
+    [self addChildViewController:videoVC];
+    
+    // 声音
+    HYFBaseTopicViewController *voiceVC = [[HYFBaseTopicViewController alloc] init];
+    voiceVC.title = @"声音";
+    [self addChildViewController:voiceVC];
+    
+    // 图片
+    HYFBaseTopicViewController *pictureVC = [[HYFBaseTopicViewController alloc] init];
+    pictureVC.title = @"图片";
+    [self addChildViewController:pictureVC];
+    
+    // 段子
+    HYFBaseTopicViewController *textVC = [[HYFBaseTopicViewController alloc] init];
+    textVC.title = @"段子";
+    [self addChildViewController:textVC];
+    
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
 
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end

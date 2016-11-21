@@ -18,9 +18,47 @@
 		387925311DDD997D0037AF17 /* HYFMapLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387925301DDD997D0037AF17 /* HYFMapLocationViewController.m */; };
 		387925341DDD99950037AF17 /* HYFInstantMessagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387925331DDD99950037AF17 /* HYFInstantMessagingViewController.m */; };
 		387925371DDD99AC0037AF17 /* HYFPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387925361DDD99AC0037AF17 /* HYFPublishViewController.m */; };
+		38FD76071DE2D3B20072C2CD /* HYFBaseTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76061DE2D3B20072C2CD /* HYFBaseTabViewController.m */; };
+		38FD76271DE2D6280072C2CD /* HYFTopicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76261DE2D6280072C2CD /* HYFTopicViewModel.m */; };
+		38FD762D1DE2D8A80072C2CD /* HYFBaseTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76291DE2D8A80072C2CD /* HYFBaseTopicViewController.m */; };
+		38FD762E1DE2D8A80072C2CD /* HYFBigPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD762B1DE2D8A80072C2CD /* HYFBigPictureViewController.m */; };
+		38FD762F1DE2D8A80072C2CD /* HYFBigPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FD762C1DE2D8A80072C2CD /* HYFBigPictureViewController.xib */; };
+		38FD76361DE2D8BD0072C2CD /* HYFCommentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76311DE2D8BD0072C2CD /* HYFCommentItem.m */; };
+		38FD76371DE2D8BD0072C2CD /* HYFTopicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76331DE2D8BD0072C2CD /* HYFTopicItem.m */; };
+		38FD76381DE2D8BD0072C2CD /* HYFUserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76351DE2D8BD0072C2CD /* HYFUserItem.m */; };
+		38FD763B1DE2D8CA0072C2CD /* HYFTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD763A1DE2D8CA0072C2CD /* HYFTopicCell.m */; };
+		38FD763F1DE2DBAB0072C2CD /* HYFNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD763E1DE2DBAB0072C2CD /* HYFNewViewController.m */; };
+		38FD76421DE2DBE70072C2CD /* HYFSubTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76411DE2DBE70072C2CD /* HYFSubTagItem.m */; };
+		38FD76451DE2DBFD0072C2CD /* HYFSubTagTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76441DE2DBFD0072C2CD /* HYFSubTagTViewController.m */; };
+		38FD76491DE2DC190072C2CD /* HYFTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76471DE2DC190072C2CD /* HYFTagCell.m */; };
+		38FD764A1DE2DC190072C2CD /* HYFTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FD76481DE2DC190072C2CD /* HYFTagCell.xib */; };
+		38FD76601DE2DCF60072C2CD /* HYFBaseTopicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD764D1DE2DCF60072C2CD /* HYFBaseTopicView.m */; };
+		38FD76611DE2DCF60072C2CD /* HYFBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD764F1DE2DCF60072C2CD /* HYFBottomView.m */; };
+		38FD76621DE2DCF60072C2CD /* HYFBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FD76501DE2DCF60072C2CD /* HYFBottomView.xib */; };
+		38FD76631DE2DCF60072C2CD /* HYFCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76521DE2DCF60072C2CD /* HYFCommentView.m */; };
+		38FD76641DE2DCF60072C2CD /* HYFCommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FD76531DE2DCF60072C2CD /* HYFCommentView.xib */; };
+		38FD76651DE2DCF60072C2CD /* HYFTopPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76551DE2DCF60072C2CD /* HYFTopPictureView.m */; };
+		38FD76661DE2DCF60072C2CD /* HYFTopPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FD76561DE2DCF60072C2CD /* HYFTopPictureView.xib */; };
+		38FD76671DE2DCF60072C2CD /* HYFTopTopicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76581DE2DCF60072C2CD /* HYFTopTopicView.m */; };
+		38FD76681DE2DCF60072C2CD /* HYFTopTopicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FD76591DE2DCF60072C2CD /* HYFTopTopicView.xib */; };
+		38FD76691DE2DCF60072C2CD /* HYFVideoTopicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD765B1DE2DCF60072C2CD /* HYFVideoTopicView.m */; };
+		38FD766A1DE2DCF60072C2CD /* HYFVideoTopicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FD765C1DE2DCF60072C2CD /* HYFVideoTopicView.xib */; };
+		38FD766B1DE2DCF60072C2CD /* HYFVoiceTopicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD765E1DE2DCF60072C2CD /* HYFVoiceTopicView.m */; };
+		38FD766C1DE2DCF60072C2CD /* HYFVoiceTopicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FD765F1DE2DCF60072C2CD /* HYFVoiceTopicView.xib */; };
+		38FD76791DE2DD920072C2CD /* AFHTTPSessionManager+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD766E1DE2DD920072C2CD /* AFHTTPSessionManager+Manager.m */; };
+		38FD767A1DE2DD920072C2CD /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76701DE2DD920072C2CD /* UIBarButtonItem+Item.m */; };
+		38FD767B1DE2DD920072C2CD /* UIImage+Rendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76721DE2DD920072C2CD /* UIImage+Rendar.m */; };
+		38FD767C1DE2DD920072C2CD /* UITabBarItem+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76741DE2DD920072C2CD /* UITabBarItem+Font.m */; };
+		38FD767D1DE2DD920072C2CD /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76761DE2DD920072C2CD /* UITextField+Placeholder.m */; };
+		38FD767E1DE2DD920072C2CD /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76781DE2DD920072C2CD /* UIView+Frame.m */; };
+		38FD76841DE2DDD60072C2CD /* HYFPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76831DE2DDD60072C2CD /* HYFPhotoManager.m */; };
+		38FD76871DE2DFD00072C2CD /* HYFNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76861DE2DFD00072C2CD /* HYFNavigationBar.m */; };
+		38FD768A1DE2E03D0072C2CD /* HYFBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD76891DE2E03D0072C2CD /* HYFBackView.m */; };
+		5B3C12107E83381A52FCB859 /* libPods-FunctionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0AD25FE61E28E6285EDD26C /* libPods-FunctionDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ECE9A8A1B8321E502249F54 /* Pods-FunctionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionDemo/Pods-FunctionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		386B9EE81DDC2FB0005CF925 /* FunctionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		386B9EEC1DDC2FB0005CF925 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		386B9EF71DDC2FB0005CF925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +78,73 @@
 		387925331DDD99950037AF17 /* HYFInstantMessagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFInstantMessagingViewController.m; sourceTree = "<group>"; };
 		387925351DDD99AC0037AF17 /* HYFPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFPublishViewController.h; sourceTree = "<group>"; };
 		387925361DDD99AC0037AF17 /* HYFPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFPublishViewController.m; sourceTree = "<group>"; };
+		38FD76051DE2D3B20072C2CD /* HYFBaseTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFBaseTabViewController.h; sourceTree = "<group>"; };
+		38FD76061DE2D3B20072C2CD /* HYFBaseTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFBaseTabViewController.m; sourceTree = "<group>"; };
+		38FD76251DE2D6280072C2CD /* HYFTopicViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFTopicViewModel.h; sourceTree = "<group>"; };
+		38FD76261DE2D6280072C2CD /* HYFTopicViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFTopicViewModel.m; sourceTree = "<group>"; };
+		38FD76281DE2D8A80072C2CD /* HYFBaseTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFBaseTopicViewController.h; sourceTree = "<group>"; };
+		38FD76291DE2D8A80072C2CD /* HYFBaseTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFBaseTopicViewController.m; sourceTree = "<group>"; };
+		38FD762A1DE2D8A80072C2CD /* HYFBigPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFBigPictureViewController.h; sourceTree = "<group>"; };
+		38FD762B1DE2D8A80072C2CD /* HYFBigPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFBigPictureViewController.m; sourceTree = "<group>"; };
+		38FD762C1DE2D8A80072C2CD /* HYFBigPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYFBigPictureViewController.xib; sourceTree = "<group>"; };
+		38FD76301DE2D8BD0072C2CD /* HYFCommentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFCommentItem.h; sourceTree = "<group>"; };
+		38FD76311DE2D8BD0072C2CD /* HYFCommentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFCommentItem.m; sourceTree = "<group>"; };
+		38FD76321DE2D8BD0072C2CD /* HYFTopicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFTopicItem.h; sourceTree = "<group>"; };
+		38FD76331DE2D8BD0072C2CD /* HYFTopicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFTopicItem.m; sourceTree = "<group>"; };
+		38FD76341DE2D8BD0072C2CD /* HYFUserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFUserItem.h; sourceTree = "<group>"; };
+		38FD76351DE2D8BD0072C2CD /* HYFUserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFUserItem.m; sourceTree = "<group>"; };
+		38FD76391DE2D8CA0072C2CD /* HYFTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFTopicCell.h; sourceTree = "<group>"; };
+		38FD763A1DE2D8CA0072C2CD /* HYFTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFTopicCell.m; sourceTree = "<group>"; };
+		38FD763C1DE2DAF70072C2CD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = FunctionDemo/Classes/Other/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		38FD763D1DE2DBAB0072C2CD /* HYFNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFNewViewController.h; sourceTree = "<group>"; };
+		38FD763E1DE2DBAB0072C2CD /* HYFNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFNewViewController.m; sourceTree = "<group>"; };
+		38FD76401DE2DBE70072C2CD /* HYFSubTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFSubTagItem.h; sourceTree = "<group>"; };
+		38FD76411DE2DBE70072C2CD /* HYFSubTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFSubTagItem.m; sourceTree = "<group>"; };
+		38FD76431DE2DBFD0072C2CD /* HYFSubTagTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFSubTagTViewController.h; sourceTree = "<group>"; };
+		38FD76441DE2DBFD0072C2CD /* HYFSubTagTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFSubTagTViewController.m; sourceTree = "<group>"; };
+		38FD76461DE2DC190072C2CD /* HYFTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFTagCell.h; sourceTree = "<group>"; };
+		38FD76471DE2DC190072C2CD /* HYFTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFTagCell.m; sourceTree = "<group>"; };
+		38FD76481DE2DC190072C2CD /* HYFTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYFTagCell.xib; sourceTree = "<group>"; };
+		38FD764C1DE2DCF60072C2CD /* HYFBaseTopicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFBaseTopicView.h; sourceTree = "<group>"; };
+		38FD764D1DE2DCF60072C2CD /* HYFBaseTopicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFBaseTopicView.m; sourceTree = "<group>"; };
+		38FD764E1DE2DCF60072C2CD /* HYFBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFBottomView.h; sourceTree = "<group>"; };
+		38FD764F1DE2DCF60072C2CD /* HYFBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFBottomView.m; sourceTree = "<group>"; };
+		38FD76501DE2DCF60072C2CD /* HYFBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYFBottomView.xib; sourceTree = "<group>"; };
+		38FD76511DE2DCF60072C2CD /* HYFCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFCommentView.h; sourceTree = "<group>"; };
+		38FD76521DE2DCF60072C2CD /* HYFCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFCommentView.m; sourceTree = "<group>"; };
+		38FD76531DE2DCF60072C2CD /* HYFCommentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYFCommentView.xib; sourceTree = "<group>"; };
+		38FD76541DE2DCF60072C2CD /* HYFTopPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFTopPictureView.h; sourceTree = "<group>"; };
+		38FD76551DE2DCF60072C2CD /* HYFTopPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFTopPictureView.m; sourceTree = "<group>"; };
+		38FD76561DE2DCF60072C2CD /* HYFTopPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYFTopPictureView.xib; sourceTree = "<group>"; };
+		38FD76571DE2DCF60072C2CD /* HYFTopTopicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFTopTopicView.h; sourceTree = "<group>"; };
+		38FD76581DE2DCF60072C2CD /* HYFTopTopicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFTopTopicView.m; sourceTree = "<group>"; };
+		38FD76591DE2DCF60072C2CD /* HYFTopTopicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYFTopTopicView.xib; sourceTree = "<group>"; };
+		38FD765A1DE2DCF60072C2CD /* HYFVideoTopicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFVideoTopicView.h; sourceTree = "<group>"; };
+		38FD765B1DE2DCF60072C2CD /* HYFVideoTopicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFVideoTopicView.m; sourceTree = "<group>"; };
+		38FD765C1DE2DCF60072C2CD /* HYFVideoTopicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYFVideoTopicView.xib; sourceTree = "<group>"; };
+		38FD765D1DE2DCF60072C2CD /* HYFVoiceTopicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFVoiceTopicView.h; sourceTree = "<group>"; };
+		38FD765E1DE2DCF60072C2CD /* HYFVoiceTopicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFVoiceTopicView.m; sourceTree = "<group>"; };
+		38FD765F1DE2DCF60072C2CD /* HYFVoiceTopicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYFVoiceTopicView.xib; sourceTree = "<group>"; };
+		38FD766D1DE2DD920072C2CD /* AFHTTPSessionManager+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+Manager.h"; sourceTree = "<group>"; };
+		38FD766E1DE2DD920072C2CD /* AFHTTPSessionManager+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+Manager.m"; sourceTree = "<group>"; };
+		38FD766F1DE2DD920072C2CD /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		38FD76701DE2DD920072C2CD /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		38FD76711DE2DD920072C2CD /* UIImage+Rendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rendar.h"; sourceTree = "<group>"; };
+		38FD76721DE2DD920072C2CD /* UIImage+Rendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rendar.m"; sourceTree = "<group>"; };
+		38FD76731DE2DD920072C2CD /* UITabBarItem+Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Font.h"; sourceTree = "<group>"; };
+		38FD76741DE2DD920072C2CD /* UITabBarItem+Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Font.m"; sourceTree = "<group>"; };
+		38FD76751DE2DD920072C2CD /* UITextField+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholder.h"; sourceTree = "<group>"; };
+		38FD76761DE2DD920072C2CD /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
+		38FD76771DE2DD920072C2CD /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		38FD76781DE2DD920072C2CD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		38FD76821DE2DDD60072C2CD /* HYFPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFPhotoManager.h; sourceTree = "<group>"; };
+		38FD76831DE2DDD60072C2CD /* HYFPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFPhotoManager.m; sourceTree = "<group>"; };
+		38FD76851DE2DFD00072C2CD /* HYFNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFNavigationBar.h; sourceTree = "<group>"; };
+		38FD76861DE2DFD00072C2CD /* HYFNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFNavigationBar.m; sourceTree = "<group>"; };
+		38FD76881DE2E03D0072C2CD /* HYFBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFBackView.h; sourceTree = "<group>"; };
+		38FD76891DE2E03D0072C2CD /* HYFBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFBackView.m; sourceTree = "<group>"; };
+		87AD485BB24F3E7A9CB74375 /* Pods-FunctionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionDemo/Pods-FunctionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E0AD25FE61E28E6285EDD26C /* libPods-FunctionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FunctionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B3C12107E83381A52FCB859 /* libPods-FunctionDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +164,8 @@
 			children = (
 				386B9EEA1DDC2FB0005CF925 /* FunctionDemo */,
 				386B9EE91DDC2FB0005CF925 /* Products */,
+				DA6E7AE2E6D0132A6CB1A3BC /* Pods */,
+				DFCCD59E283D51615E306BEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +199,8 @@
 		386B9F021DDC2FDB005CF925 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				38FD767F1DE2DDD60072C2CD /* Utils */,
+				38FD76041DE2D39C0072C2CD /* Base */,
 				386B9F031DDC2FDB005CF925 /* AppDelegate */,
 				386B9F081DDC2FDB005CF925 /* Main */,
 				386B9F0C1DDC2FDB005CF925 /* MainstreamFramework */,
@@ -175,6 +285,10 @@
 		386B9F0B1DDC2FDB005CF925 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				38FD76851DE2DFD00072C2CD /* HYFNavigationBar.h */,
+				38FD76861DE2DFD00072C2CD /* HYFNavigationBar.m */,
+				38FD76881DE2E03D0072C2CD /* HYFBackView.h */,
+				38FD76891DE2E03D0072C2CD /* HYFBackView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +296,7 @@
 		386B9F0C1DDC2FDB005CF925 /* MainstreamFramework */ = {
 			isa = PBXGroup;
 			children = (
+				38FD76241DE2D5CF0072C2CD /* ViewModel */,
 				386B9F0D1DDC2FDB005CF925 /* Controller */,
 				386B9F0E1DDC2FDB005CF925 /* Model */,
 				386B9F0F1DDC2FDB005CF925 /* View */,
@@ -194,6 +309,15 @@
 			children = (
 				3879252C1DDD99520037AF17 /* HYFMainstreamFrameworkViewController.h */,
 				3879252D1DDD99520037AF17 /* HYFMainstreamFrameworkViewController.m */,
+				38FD763D1DE2DBAB0072C2CD /* HYFNewViewController.h */,
+				38FD763E1DE2DBAB0072C2CD /* HYFNewViewController.m */,
+				38FD76281DE2D8A80072C2CD /* HYFBaseTopicViewController.h */,
+				38FD76291DE2D8A80072C2CD /* HYFBaseTopicViewController.m */,
+				38FD762A1DE2D8A80072C2CD /* HYFBigPictureViewController.h */,
+				38FD762B1DE2D8A80072C2CD /* HYFBigPictureViewController.m */,
+				38FD762C1DE2D8A80072C2CD /* HYFBigPictureViewController.xib */,
+				38FD76431DE2DBFD0072C2CD /* HYFSubTagTViewController.h */,
+				38FD76441DE2DBFD0072C2CD /* HYFSubTagTViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -201,6 +325,14 @@
 		386B9F0E1DDC2FDB005CF925 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				38FD76401DE2DBE70072C2CD /* HYFSubTagItem.h */,
+				38FD76411DE2DBE70072C2CD /* HYFSubTagItem.m */,
+				38FD76301DE2D8BD0072C2CD /* HYFCommentItem.h */,
+				38FD76311DE2D8BD0072C2CD /* HYFCommentItem.m */,
+				38FD76321DE2D8BD0072C2CD /* HYFTopicItem.h */,
+				38FD76331DE2D8BD0072C2CD /* HYFTopicItem.m */,
+				38FD76341DE2D8BD0072C2CD /* HYFUserItem.h */,
+				38FD76351DE2D8BD0072C2CD /* HYFUserItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -208,6 +340,12 @@
 		386B9F0F1DDC2FDB005CF925 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				38FD764B1DE2DCD80072C2CD /* CellChildView */,
+				38FD76391DE2D8CA0072C2CD /* HYFTopicCell.h */,
+				38FD763A1DE2D8CA0072C2CD /* HYFTopicCell.m */,
+				38FD76461DE2DC190072C2CD /* HYFTagCell.h */,
+				38FD76471DE2DC190072C2CD /* HYFTagCell.m */,
+				38FD76481DE2DC190072C2CD /* HYFTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -224,6 +362,18 @@
 		386B9F151DDC2FDB005CF925 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				38FD766D1DE2DD920072C2CD /* AFHTTPSessionManager+Manager.h */,
+				38FD766E1DE2DD920072C2CD /* AFHTTPSessionManager+Manager.m */,
+				38FD766F1DE2DD920072C2CD /* UIBarButtonItem+Item.h */,
+				38FD76701DE2DD920072C2CD /* UIBarButtonItem+Item.m */,
+				38FD76711DE2DD920072C2CD /* UIImage+Rendar.h */,
+				38FD76721DE2DD920072C2CD /* UIImage+Rendar.m */,
+				38FD76731DE2DD920072C2CD /* UITabBarItem+Font.h */,
+				38FD76741DE2DD920072C2CD /* UITabBarItem+Font.m */,
+				38FD76751DE2DD920072C2CD /* UITextField+Placeholder.h */,
+				38FD76761DE2DD920072C2CD /* UITextField+Placeholder.m */,
+				38FD76771DE2DD920072C2CD /* UIView+Frame.h */,
+				38FD76781DE2DD920072C2CD /* UIView+Frame.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -232,6 +382,7 @@
 			isa = PBXGroup;
 			children = (
 				386B9F1E1DDC300B005CF925 /* Info.plist */,
+				38FD763C1DE2DAF70072C2CD /* PrefixHeader.pch */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -302,6 +453,93 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		38FD76041DE2D39C0072C2CD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				38FD76051DE2D3B20072C2CD /* HYFBaseTabViewController.h */,
+				38FD76061DE2D3B20072C2CD /* HYFBaseTabViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		38FD76241DE2D5CF0072C2CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				38FD76251DE2D6280072C2CD /* HYFTopicViewModel.h */,
+				38FD76261DE2D6280072C2CD /* HYFTopicViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		38FD764B1DE2DCD80072C2CD /* CellChildView */ = {
+			isa = PBXGroup;
+			children = (
+				38FD764C1DE2DCF60072C2CD /* HYFBaseTopicView.h */,
+				38FD764D1DE2DCF60072C2CD /* HYFBaseTopicView.m */,
+				38FD764E1DE2DCF60072C2CD /* HYFBottomView.h */,
+				38FD764F1DE2DCF60072C2CD /* HYFBottomView.m */,
+				38FD76501DE2DCF60072C2CD /* HYFBottomView.xib */,
+				38FD76511DE2DCF60072C2CD /* HYFCommentView.h */,
+				38FD76521DE2DCF60072C2CD /* HYFCommentView.m */,
+				38FD76531DE2DCF60072C2CD /* HYFCommentView.xib */,
+				38FD76541DE2DCF60072C2CD /* HYFTopPictureView.h */,
+				38FD76551DE2DCF60072C2CD /* HYFTopPictureView.m */,
+				38FD76561DE2DCF60072C2CD /* HYFTopPictureView.xib */,
+				38FD76571DE2DCF60072C2CD /* HYFTopTopicView.h */,
+				38FD76581DE2DCF60072C2CD /* HYFTopTopicView.m */,
+				38FD76591DE2DCF60072C2CD /* HYFTopTopicView.xib */,
+				38FD765A1DE2DCF60072C2CD /* HYFVideoTopicView.h */,
+				38FD765B1DE2DCF60072C2CD /* HYFVideoTopicView.m */,
+				38FD765C1DE2DCF60072C2CD /* HYFVideoTopicView.xib */,
+				38FD765D1DE2DCF60072C2CD /* HYFVoiceTopicView.h */,
+				38FD765E1DE2DCF60072C2CD /* HYFVoiceTopicView.m */,
+				38FD765F1DE2DCF60072C2CD /* HYFVoiceTopicView.xib */,
+			);
+			path = CellChildView;
+			sourceTree = "<group>";
+		};
+		38FD767F1DE2DDD60072C2CD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				38FD76801DE2DDD60072C2CD /* File */,
+				38FD76811DE2DDD60072C2CD /* Photo */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		38FD76801DE2DDD60072C2CD /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		38FD76811DE2DDD60072C2CD /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				38FD76821DE2DDD60072C2CD /* HYFPhotoManager.h */,
+				38FD76831DE2DDD60072C2CD /* HYFPhotoManager.m */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		DA6E7AE2E6D0132A6CB1A3BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ECE9A8A1B8321E502249F54 /* Pods-FunctionDemo.debug.xcconfig */,
+				87AD485BB24F3E7A9CB74375 /* Pods-FunctionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFCCD59E283D51615E306BEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD25FE61E28E6285EDD26C /* libPods-FunctionDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,9 +547,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 386B9EFF1DDC2FB0005CF925 /* Build configuration list for PBXNativeTarget "FunctionDemo" */;
 			buildPhases = (
+				B9D51D2AA864FA7D596C6618 /* [CP] Check Pods Manifest.lock */,
 				386B9EE41DDC2FB0005CF925 /* Sources */,
 				386B9EE51DDC2FB0005CF925 /* Frameworks */,
 				386B9EE61DDC2FB0005CF925 /* Resources */,
+				6A48AA88D583D71440C089D2 /* [CP] Embed Pods Frameworks */,
+				D28884D22D077B9A00ECDBE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -361,27 +602,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FD762F1DE2D8A80072C2CD /* HYFBigPictureViewController.xib in Resources */,
+				38FD764A1DE2DC190072C2CD /* HYFTagCell.xib in Resources */,
+				38FD76641DE2DCF60072C2CD /* HYFCommentView.xib in Resources */,
 				386B9F1F1DDC300B005CF925 /* Info.plist in Resources */,
+				38FD766A1DE2DCF60072C2CD /* HYFVideoTopicView.xib in Resources */,
 				386B9EFB1DDC2FB0005CF925 /* LaunchScreen.storyboard in Resources */,
+				38FD766C1DE2DCF60072C2CD /* HYFVoiceTopicView.xib in Resources */,
 				386B9EF81DDC2FB0005CF925 /* Assets.xcassets in Resources */,
+				38FD76681DE2DCF60072C2CD /* HYFTopTopicView.xib in Resources */,
+				38FD76621DE2DCF60072C2CD /* HYFBottomView.xib in Resources */,
+				38FD76661DE2DCF60072C2CD /* HYFTopPictureView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A48AA88D583D71440C089D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunctionDemo/Pods-FunctionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D51D2AA864FA7D596C6618 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D28884D22D077B9A00ECDBE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunctionDemo/Pods-FunctionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		386B9EE41DDC2FB0005CF925 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FD76371DE2D8BD0072C2CD /* HYFTopicItem.m in Sources */,
+				38FD76381DE2D8BD0072C2CD /* HYFUserItem.m in Sources */,
+				38FD766B1DE2DCF60072C2CD /* HYFVoiceTopicView.m in Sources */,
+				38FD767B1DE2DD920072C2CD /* UIImage+Rendar.m in Sources */,
 				386B9F1D1DDC2FF2005CF925 /* AppDelegate.m in Sources */,
+				38FD762D1DE2D8A80072C2CD /* HYFBaseTopicViewController.m in Sources */,
+				38FD763B1DE2D8CA0072C2CD /* HYFTopicCell.m in Sources */,
 				387925341DDD99950037AF17 /* HYFInstantMessagingViewController.m in Sources */,
 				387925371DDD99AC0037AF17 /* HYFPublishViewController.m in Sources */,
+				38FD767D1DE2DD920072C2CD /* UITextField+Placeholder.m in Sources */,
+				38FD76361DE2D8BD0072C2CD /* HYFCommentItem.m in Sources */,
+				38FD767C1DE2DD920072C2CD /* UITabBarItem+Font.m in Sources */,
+				38FD76841DE2DDD60072C2CD /* HYFPhotoManager.m in Sources */,
+				38FD76691DE2DCF60072C2CD /* HYFVideoTopicView.m in Sources */,
 				386B9EED1DDC2FB0005CF925 /* main.m in Sources */,
+				38FD76451DE2DBFD0072C2CD /* HYFSubTagTViewController.m in Sources */,
 				387925311DDD997D0037AF17 /* HYFMapLocationViewController.m in Sources */,
+				38FD76871DE2DFD00072C2CD /* HYFNavigationBar.m in Sources */,
+				38FD76671DE2DCF60072C2CD /* HYFTopTopicView.m in Sources */,
 				3879252E1DDD99520037AF17 /* HYFMainstreamFrameworkViewController.m in Sources */,
+				38FD763F1DE2DBAB0072C2CD /* HYFNewViewController.m in Sources */,
+				38FD76611DE2DCF60072C2CD /* HYFBottomView.m in Sources */,
+				38FD76271DE2D6280072C2CD /* HYFTopicViewModel.m in Sources */,
+				38FD768A1DE2E03D0072C2CD /* HYFBackView.m in Sources */,
+				38FD767E1DE2DD920072C2CD /* UIView+Frame.m in Sources */,
 				387925281DDD5AEE0037AF17 /* HYFTabBarController.m in Sources */,
 				3879252B1DDD98DB0037AF17 /* HYFNavigationController.m in Sources */,
+				38FD76491DE2DC190072C2CD /* HYFTagCell.m in Sources */,
+				38FD762E1DE2D8A80072C2CD /* HYFBigPictureViewController.m in Sources */,
+				38FD76601DE2DCF60072C2CD /* HYFBaseTopicView.m in Sources */,
+				38FD76071DE2D3B20072C2CD /* HYFBaseTabViewController.m in Sources */,
+				38FD76631DE2DCF60072C2CD /* HYFCommentView.m in Sources */,
+				38FD76791DE2DD920072C2CD /* AFHTTPSessionManager+Manager.m in Sources */,
+				38FD76421DE2DBE70072C2CD /* HYFSubTagItem.m in Sources */,
+				38FD76651DE2DCF60072C2CD /* HYFTopPictureView.m in Sources */,
+				38FD767A1DE2DD920072C2CD /* UIBarButtonItem+Item.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,8 +816,10 @@
 		};
 		386B9F001DDC2FB0005CF925 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECE9A8A1B8321E502249F54 /* Pods-FunctionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = FunctionDemo/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/FunctionDemo/Classes/Other/System/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -504,8 +831,10 @@
 		};
 		386B9F011DDC2FB0005CF925 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87AD485BB24F3E7A9CB74375 /* Pods-FunctionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = FunctionDemo/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/FunctionDemo/Classes/Other/System/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
