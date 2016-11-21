@@ -12,6 +12,12 @@
 		386B9EFB1DDC2FB0005CF925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386B9EF91DDC2FB0005CF925 /* LaunchScreen.storyboard */; };
 		386B9F1D1DDC2FF2005CF925 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 386B9F1C1DDC2FF2005CF925 /* AppDelegate.m */; };
 		386B9F1F1DDC300B005CF925 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 386B9F1E1DDC300B005CF925 /* Info.plist */; };
+		387925281DDD5AEE0037AF17 /* HYFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387925271DDD5AEE0037AF17 /* HYFTabBarController.m */; };
+		3879252B1DDD98DB0037AF17 /* HYFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3879252A1DDD98DB0037AF17 /* HYFNavigationController.m */; };
+		3879252E1DDD99520037AF17 /* HYFMainstreamFrameworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3879252D1DDD99520037AF17 /* HYFMainstreamFrameworkViewController.m */; };
+		387925311DDD997D0037AF17 /* HYFMapLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387925301DDD997D0037AF17 /* HYFMapLocationViewController.m */; };
+		387925341DDD99950037AF17 /* HYFInstantMessagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387925331DDD99950037AF17 /* HYFInstantMessagingViewController.m */; };
+		387925371DDD99AC0037AF17 /* HYFPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387925361DDD99AC0037AF17 /* HYFPublishViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,18 @@
 		386B9F1B1DDC2FF2005CF925 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		386B9F1C1DDC2FF2005CF925 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		386B9F1E1DDC300B005CF925 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387925261DDD5AEE0037AF17 /* HYFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFTabBarController.h; sourceTree = "<group>"; };
+		387925271DDD5AEE0037AF17 /* HYFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFTabBarController.m; sourceTree = "<group>"; };
+		387925291DDD98DB0037AF17 /* HYFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFNavigationController.h; sourceTree = "<group>"; };
+		3879252A1DDD98DB0037AF17 /* HYFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFNavigationController.m; sourceTree = "<group>"; };
+		3879252C1DDD99520037AF17 /* HYFMainstreamFrameworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFMainstreamFrameworkViewController.h; sourceTree = "<group>"; };
+		3879252D1DDD99520037AF17 /* HYFMainstreamFrameworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFMainstreamFrameworkViewController.m; sourceTree = "<group>"; };
+		3879252F1DDD997D0037AF17 /* HYFMapLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFMapLocationViewController.h; sourceTree = "<group>"; };
+		387925301DDD997D0037AF17 /* HYFMapLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFMapLocationViewController.m; sourceTree = "<group>"; };
+		387925321DDD99950037AF17 /* HYFInstantMessagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFInstantMessagingViewController.h; sourceTree = "<group>"; };
+		387925331DDD99950037AF17 /* HYFInstantMessagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFInstantMessagingViewController.m; sourceTree = "<group>"; };
+		387925351DDD99AC0037AF17 /* HYFPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFPublishViewController.h; sourceTree = "<group>"; };
+		387925361DDD99AC0037AF17 /* HYFPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFPublishViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				386B9F031DDC2FDB005CF925 /* AppDelegate */,
-				386B9F041DDC2FDB005CF925 /* InstantMessaging */,
 				386B9F081DDC2FDB005CF925 /* Main */,
 				386B9F0C1DDC2FDB005CF925 /* MainstreamFramework */,
-				386B9F101DDC2FDB005CF925 /* MapNavigation */,
+				387925221DDD59160037AF17 /* MapLocation */,
+				386B9F041DDC2FDB005CF925 /* InstantMessaging */,
 				386B9F141DDC2FDB005CF925 /* Other */,
 				386B9F171DDC2FDB005CF925 /* Publish */,
 			);
@@ -106,6 +124,8 @@
 		386B9F051DDC2FDB005CF925 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				387925321DDD99950037AF17 /* HYFInstantMessagingViewController.h */,
+				387925331DDD99950037AF17 /* HYFInstantMessagingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -137,6 +157,10 @@
 		386B9F091DDC2FDB005CF925 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				387925261DDD5AEE0037AF17 /* HYFTabBarController.h */,
+				387925271DDD5AEE0037AF17 /* HYFTabBarController.m */,
+				387925291DDD98DB0037AF17 /* HYFNavigationController.h */,
+				3879252A1DDD98DB0037AF17 /* HYFNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,6 +192,8 @@
 		386B9F0D1DDC2FDB005CF925 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3879252C1DDD99520037AF17 /* HYFMainstreamFrameworkViewController.h */,
+				3879252D1DDD99520037AF17 /* HYFMainstreamFrameworkViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,37 +206,6 @@
 			sourceTree = "<group>";
 		};
 		386B9F0F1DDC2FDB005CF925 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		386B9F101DDC2FDB005CF925 /* MapNavigation */ = {
-			isa = PBXGroup;
-			children = (
-				386B9F111DDC2FDB005CF925 /* Controller */,
-				386B9F121DDC2FDB005CF925 /* Model */,
-				386B9F131DDC2FDB005CF925 /* View */,
-			);
-			path = MapNavigation;
-			sourceTree = "<group>";
-		};
-		386B9F111DDC2FDB005CF925 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		386B9F121DDC2FDB005CF925 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		386B9F131DDC2FDB005CF925 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -254,6 +249,8 @@
 		386B9F181DDC2FDB005CF925 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				387925351DDD99AC0037AF17 /* HYFPublishViewController.h */,
+				387925361DDD99AC0037AF17 /* HYFPublishViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -266,6 +263,39 @@
 			sourceTree = "<group>";
 		};
 		386B9F1A1DDC2FDB005CF925 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		387925221DDD59160037AF17 /* MapLocation */ = {
+			isa = PBXGroup;
+			children = (
+				387925231DDD59160037AF17 /* Controller */,
+				387925241DDD59160037AF17 /* Model */,
+				387925251DDD59160037AF17 /* View */,
+			);
+			path = MapLocation;
+			sourceTree = "<group>";
+		};
+		387925231DDD59160037AF17 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3879252F1DDD997D0037AF17 /* HYFMapLocationViewController.h */,
+				387925301DDD997D0037AF17 /* HYFMapLocationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		387925241DDD59160037AF17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		387925251DDD59160037AF17 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -298,6 +328,7 @@
 		386B9EE01DDC2FB0005CF925 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HYF;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = youfenghe;
 				TargetAttributes = {
@@ -344,7 +375,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				386B9F1D1DDC2FF2005CF925 /* AppDelegate.m in Sources */,
+				387925341DDD99950037AF17 /* HYFInstantMessagingViewController.m in Sources */,
+				387925371DDD99AC0037AF17 /* HYFPublishViewController.m in Sources */,
 				386B9EED1DDC2FB0005CF925 /* main.m in Sources */,
+				387925311DDD997D0037AF17 /* HYFMapLocationViewController.m in Sources */,
+				3879252E1DDD99520037AF17 /* HYFMainstreamFrameworkViewController.m in Sources */,
+				387925281DDD5AEE0037AF17 /* HYFTabBarController.m in Sources */,
+				3879252B1DDD98DB0037AF17 /* HYFNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +534,7 @@
 				386B9F011DDC2FB0005CF925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

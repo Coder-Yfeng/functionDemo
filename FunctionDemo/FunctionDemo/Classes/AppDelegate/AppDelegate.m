@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HYFTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,9 +16,38 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    // 启动窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    // 根控制器
+    self.window.rootViewController = [[HYFTabBarController alloc] init];
+    // 显示窗口
+    [self.window makeKeyAndVisible];
     return YES;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
