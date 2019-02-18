@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://game.cdn.betophall.com/data/ios/BetopGame2.7.2.ipa</string>
+				</dict>
+				<dict>
+					<key>url</key>
+					<string>https://theme.cdn.betophall.com/data/ios/BetopGame-2.png</string>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>url</key>
+					<string>https://theme.cdn.betophall.com/data/ios/BetopGame-1.png</string>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.betop.center</string>
+				<key>bundle-version</key>
+				<string>1.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>左游游戏厅(2.7.2)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
